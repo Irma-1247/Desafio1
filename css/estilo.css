@@ -1,0 +1,79 @@
+html{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	margin: 5%;
+}
+
+section{
+	text-align: center;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.contenedor{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+.selectbox, .selectbox2{
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.select, .select2{
+	background: white;
+	width: 100%;
+	cursor: pointer;
+	align-items: center;
+	padding: 5px;
+}
+
+.select.active, .select:hover, .select2.active, .select2:hover {
+	border: 2px solid #213f8f;
+}
+
+.titulo{
+	color: #000;
+	font-size: 110%;
+}
+
+.opciones, .opciones2{
+	background: white;
+	border-radius: 10px;
+	max-height: 400px;
+	overflow: auto;
+	width: 100%;
+	display: none;
+}
+
+.opciones.active, .opciones2.active{
+	display: block;
+}
+
+/*Animación*/
+.contenido-opcion{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+
+.contenido-opcion img{
+	width: 30%;
+	max-width: 70px;
+	margin-right: 10%;
+}
+
+#tri{
+	width: 10%;
+	max-width: 50px;
+}
+
+p{
+	margin-bottom: 0px;	
+}
